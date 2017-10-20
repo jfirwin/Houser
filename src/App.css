@@ -1,28 +1,156 @@
 .App {
   text-align: center;
+  background-color: #AFD4C0;
+  height: 100vh;
+  overflow: scroll;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.content {
+  width: 100%;
+  text-align: left;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.authcontent {
+  width: 50%;
+  text-align: left;
+}
+.wizard {
+  height: calc(100vh - 75px);
+}
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 50%;
+  height: 100vh;
+}
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #e2f3ea, #ffffff);;
+  width: 50%;
+  height: 100%;
+}
+.auth input {
+  border-color: #00A474;
+  border-width: 1px;
+  width: 100%;
+  border-style: solid;
+}
+.auth img {
+  margin-top: 25vh;
+  margin-bottom: 50px;
+}
+.auth h4 {
+  padding: 0px;
+  margin: 5px;
+}
+.auth button {
+  margin: 15px;
+  width: 25%;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.flex {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageHolder {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+}
+.Nav {
+  background-color: #519872;
+  height: 75px;
+  padding: 10px;
   color: white;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-.App-title {
-  font-size: 1.5em;
+.Nav h1 {
+  font-size: 30px;
+  margin-left: 10px;
 }
-
-.App-intro {
-  font-size: large;
+.lightText {
+  font-weight: lighter;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.flexrow input {
+  width: 75px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.flexrow button {
+  width: 75px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.propertyImage {
+  max-height: 100px;
+  max-width: 100px;
+}
+.propertyBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #DEDEDE;
+  margin: 10px;
+  padding: 10px;
+}
+.wizard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #e2f3ea, #ffffff);
+  margin-top: 100px;
+  width: 75%;
+  height: 75vh;
+  padding: 10px;
+}
+.details {
+  border-left: solid 1px #000;
+  padding: 10px;
+  height: 100px;
+  overflow: auto;
+}
+.detailsFlex {
+  display: flex;
+  align-items: flex-start;
+}
+.content-small {
+  width: 50%;
+  height: 50%
+}
+hr {
+  color: black;
+  width: 2px;
+}
+button {
+  border: none;
+}
+.redButton {
+  background-color: #fec2c2;
+}
+.darkGreenButton {
+  margin-top: 20px;
+  background-color: #3b5249;
+  color: #FFF
+}
+.lightGreenButton {
+  margin-top: 20px;
+  background-color: #8aea92;
+  color: #000
 }
